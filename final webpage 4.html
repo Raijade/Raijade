@@ -1,0 +1,333 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>My Final Website </title>
+  
+  <style type="text/css">
+	  @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans&family=Josefin+Slab&display=swap');
+	  
+	  /* http://meyerweb.com/eric/tools/css/reset/ 
+	     v2.0 | 20110126
+	     License: none (public domain)
+	  */
+
+	  html, body, div, span, applet, object, iframe,
+	  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	  a, abbr, acronym, address, big, cite, code,
+	  del, dfn, em, img, ins, kbd, q, s, samp,
+	  small, strike, strong, sub, sup, tt, var,
+	  b, u, i, center,
+	  dl, dt, dd, ol, ul, li,
+	  fieldset, form, label, legend,
+	  table, caption, tbody, tfoot, thead, tr, th, td,
+	  article, aside, canvas, details, embed, 
+	  figure, figcaption, footer, header, hgroup, 
+	  menu, nav, output, ruby, section, summary,
+	  time, mark, audio, video {
+	  	margin: 0;
+	  	padding: 0;
+	  	border: 0;
+	  	font-size: 100%;
+	  	font: inherit;
+	  	vertical-align: baseline;
+	  }
+	  /* HTML5 display-role reset for older browsers */
+	  article, aside, details, figcaption, figure, 
+	  footer, header, hgroup, menu, nav, section {
+	  	display: block;
+	  }
+	  body {
+	  	line-height: 1;
+		background-color:#5b5553;
+	  }
+	  ol, ul {
+	  	list-style: none;
+	  }
+	  blockquote, q {
+	  	quotes: none;
+	  }
+	  blockquote:before, blockquote:after,
+	  q:before, q:after {
+	  	content: '';
+	  	content: none;
+	  }
+	  table {
+	  	border-collapse: collapse;
+	  	border-spacing: 0;
+	  }
+	  /*================color shceme===============*/
+	  /*
+	  lightest blue- #B7CDF2
+	  semi light-#85A7E1
+	  mid blue-#5E87CE
+	  dark-blue-#3E6CB9
+	  darkest blue-#2152A6
+	  */
+	  body{
+		  background-color: #B7CDF2
+		  
+	  }
+	  header{
+		  background-color: white;
+		  padding: 3%;
+	  }
+	  
+	  #wrapper{
+		  width: 80.566406%;/*825/1024*/
+		  margin: 0 auto;
+		  background-color: #5E87CE;
+		  padding:2%;
+	  }
+	  
+	  .nav-item{
+	  	
+		  display:inline-block;
+		  margin-left: 2%;
+		  background-color: #5E87CE;
+	  }
+	  li.nav-item a:link{
+		  color: white;
+	  }
+	  li.nav-item a:visited{
+		  color: green;
+	  }
+	  li.nav-item a:hover{
+		  color: white;
+		  background-color: #85A7E1;
+	  }
+	  li.nav-item a:active{
+		  color: #2152A6;
+	  }
+	  
+	  
+	  
+	  
+	  ol li{
+		  list-style: decimal;
+		  list-style-position: inside;
+		  
+	  }
+	  
+	  
+	  
+		  
+	  #feature{
+		  width: 81.325757575758%;/*706/825*/
+		  margin: 4% auto 4% auto;
+		  background-color: white;
+		  overflow: hidden;
+		  padding: 1.5% 2.2% 3.5% 2.25%;
+		  
+	  }
+	  #feature ul{
+		  padding: 2%;
+	  }
+	  .feature-img{
+		  float: left;
+		  width: 40%;
+		  padding: 2% auto;
+		  margin: 1%;
+		  
+		  
+	  }
+	  
+	  #main-content{
+		  width: 59.393939%;/*523/825*/
+		  float: right;
+		  margin: 1%;
+	  }
+	  .main-figure{
+		  width:40.5047801%;/*170/523*/
+		  margin-left: 4%;/*50/523*/
+		  float: right;
+		  padding: 2%;
+		  background-color: white;
+	  }
+	  .main-content-text{
+	  	font-family: 'Josefin Slab',serif;
+		color: #ea3067;
+	  	margin: 1%;
+	  	font-size: 1.1em;
+	  	font-weight: bold;
+	  	line-height: 120%;
+	  	letter-spacing: .05em;
+		background-color: white;
+		padding: 2%;
+		float: left;
+		
+		
+	  }
+	  .feature-text{
+		  float: left;
+		  width: 58%;
+		  margin-left:  auto;
+		  font-family: 'Josefin Slab',serif;
+		  font-size: 1.5em;
+		  font-weight: bold;
+		  line-height: 120%;
+		  letter-spacing: .05em;
+		  color: #ea3067;
+		  
+	  }
+	  
+	  #sidebar{
+		  width:30.60606060606061%;/*302/706*/
+		  float: left;
+  	  	  font-family: 'Josefin Slab',serif;
+  		  color: #ea3067;
+  	  	  margin: 1%;
+  	  	  font-size: 1.1em;
+  	  	  font-weight: bold;
+  	  	  line-height: 120%;
+  	  	  letter-spacing: .05em;
+  		  background-color: white;
+  		  padding: 2%;
+		  
+	  }
+	  .side-figure{
+		  width:88.0794701986755%;/*266/302*/
+		  margin: 1% auto;
+		  padding: 1%;
+		  background-color: white;
+			  
+			 
+	  }
+	  figure{
+		  background-color: silver;
+	  }
+	  figure img{
+		  max-width: 100%;
+	  }
+	  footer{
+		  clear: left;
+		  padding: 2%;
+		  background-color: #85A7E1;
+	  }
+	  footer p{
+		  margin: 0;
+	  }
+	  /*====================type styles================*/
+	  /*
+	  font-family: 'Cardo', serif;
+	  font-family: 'Josefin Sans', sans-serif;
+	  font-family: 'Josefin Slab',serif; 
+	  */
+	  
+	  body{
+	  	font-family: 'Cardo', serif;
+	  }
+	  article>p{
+		  line-height: 130%;
+	  }
+	  h1, h2, h3{
+	  	font-family: 'Josefin Sans', sans-serif;
+		color: #2152A6;
+		letter-spacing: .05em;
+		padding: 1%;
+	  }
+	  h1{
+		  font-size: 2em;
+		  font-weight: bold; 
+	  }
+	  h2{
+		  font-size: 1.5em;
+		  font-weight: bold; 
+	  }
+	  
+	  
+	  figcaption{
+	  	font-family: 'Josefin Sans', sans-serif;
+		margin: 1%;
+		
+	  }
+	  #sidebar figcaption{
+		  margin-bottom: 2%;
+	  }
+	  #feature h2{
+		  margin-bottom: 2%;
+	  }
+	  p{
+		  margin: 2.5% 0;
+	  }
+	  
+		  
+  </style>
+  
+</head>
+
+<body>
+    <div id="wrapper">
+		<header>
+			<h1>Spiritual Meditation</h1>
+		</header>
+		
+       	<nav>
+       		<ul>
+       			<li class="nav-item"><a href="final webpage 1.html">page1</a></li>
+				<li class="nav-item"><a href="final webpage 2.html">page2</a></li>
+				<li class="nav-item"><a href="final webpage 3.html">page3</a></li>
+				
+				
+       		</ul>
+       	</nav>
+       	<div id="Feature">
+			<article class="main-content-text">
+			<h2>Smudging</h2>
+			<img src="sage.webp" class="feature-img" />
+			
+			<p class="feature-text"><h3>Items needed for smudging</h3>
+					<ol>
+						<li>A vessel for burning sage.</li>
+						<li>Sage or a sage spray</li>	
+						<li>A fire source (such as a long match or candle)</li>	
+						<li>A fanning tool (not completely necessary but could be helpful if you need to cover a large area such as a home or office)</li>
+						
+					</ol>
+					<p><a href="https://www.mindbodygreen.com/articles/smudging-101-burning-sage">link to smudging</a></p></p>
+				<p>
+					Smudging is another form of meditation and clearing negative energy. The world is draining and sometimes you can take in other peoples worries and problems and then you are left with that inside of you. Clearing your energy can bring you back to being centered. Alot of people also use smudging to clear crystals, new homes, or simply used for meditation.
+				</p>
+			</article>
+					
+		</div>	
+       	<div id="main-content">
+       		<article class="main-content-text">
+       			<h2>Singing Bowls</h2>
+				<figure class="main-figure">
+					<img src="singing bowls.webp" />
+					<figcaption>
+						<p>Singing bowls</p>
+					</figcaption>
+				</figure>
+				<p>
+					Singing bowls are a great way to deepen your practice. They are also used for healing purposes. The sound vibrates through your body and can be soothing.
+				</p>
+				
+       		</article>
+       		
+			
+       	</div>
+       	<div id="sidebar">
+       		<article>
+				<h2>Enlightened</h2>
+				<figure class="side-figure">
+					<img src="buddah.webp" />
+					<figcaption>
+						<p>Buddah</p>
+					</figcaption>
+				</figure>
+				<p>
+					I chose this picture because it just brings a sense of calm to me. It looks like a sacred place to want to be in and drift away in to wonderland. candles and scents can also deepen your meditation and enhance your spirtual being.
+				</p>
+				
+       		</article>
+       	</div>
+       	<footer>
+       		<p><small> Raven Anderson-Lyles @2023<small></p>
+       	</footer>
+	</div>
+</body>
+</html>

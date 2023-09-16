@@ -1,0 +1,333 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>My Final Website </title>
+  
+  <style type="text/css">
+	  @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans&family=Josefin+Slab&display=swap');
+	  
+	  /* http://meyerweb.com/eric/tools/css/reset/ 
+	     v2.0 | 20110126
+	     License: none (public domain)
+	  */
+
+	  html, body, div, span, applet, object, iframe,
+	  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	  a, abbr, acronym, address, big, cite, code,
+	  del, dfn, em, img, ins, kbd, q, s, samp,
+	  small, strike, strong, sub, sup, tt, var,
+	  b, u, i, center,
+	  dl, dt, dd, ol, ul, li,
+	  fieldset, form, label, legend,
+	  table, caption, tbody, tfoot, thead, tr, th, td,
+	  article, aside, canvas, details, embed, 
+	  figure, figcaption, footer, header, hgroup, 
+	  menu, nav, output, ruby, section, summary,
+	  time, mark, audio, video {
+	  	margin: 0;
+	  	padding: 0;
+	  	border: 0;
+	  	font-size: 100%;
+	  	font: inherit;
+	  	vertical-align: baseline;
+	  }
+	  /* HTML5 display-role reset for older browsers */
+	  article, aside, details, figcaption, figure, 
+	  footer, header, hgroup, menu, nav, section {
+	  	display: block;
+	  }
+	  body {
+	  	line-height: 1;
+		background-color:#5b5553;
+	  }
+	  ol, ul {
+	  	list-style: none;
+	  }
+	  blockquote, q {
+	  	quotes: none;
+	  }
+	  blockquote:before, blockquote:after,
+	  q:before, q:after {
+	  	content: '';
+	  	content: none;
+	  }
+	  table {
+	  	border-collapse: collapse;
+	  	border-spacing: 0;
+	  }
+	  /*================color shceme===============*/
+	  /*
+	  lightest grey- #e5e5e5
+	  red-#ea3067
+	  black-#191919
+	  dark-grey-#5b5553
+	  medium grey-#bla7a5
+	  */
+	  /*
+	  lightest blue- #B7CDF2
+	  semi light-#85A7E1
+	  mid blue-#5E87CE
+	  dark-blue-#3E6CB9
+	  darkest blue-#2152A6
+	  */
+	  
+	  body{
+		  background-color: #5E87CE;
+		  
+	  }
+	  header{
+		  background-color: white;
+		  padding: 3%;
+	  }
+	  
+	  #wrapper{
+		  width: 80.566406%;/*825/1024*/
+		  margin: 0 auto;
+		  background-color: #B7CDF2;
+		  padding: 2%;
+		 
+	  }
+	  nav{
+		  margin: 0 auto;
+		  background-color: ;
+		  padding: 1% 0;
+	  }
+	  nav ul{
+		  width: 85.575758%;/*706/825*/
+		  background-color:;
+		  margin: 0 auto;
+	  }
+	  nav ul li{
+		  display: inline;
+		  margin-right: 2%;
+	  }
+	  .nav-item{
+	  	
+		  display:inline-block;
+		  margin-left: 2%;
+		  background-color: #B7CDF2;
+	  }
+	  li.nav-item a:link{
+		  color: white;
+	  }
+	  li.nav-item a:visited{
+		  color: green;
+	  }
+	  li.nav-item a:hover{
+		  color: white;
+		  background-color: #3E6CB9;
+	  }
+	  li.nav-item a:active{
+		  color: #2152A6;
+	  }
+	  
+	  #feature{
+		  width: 81.325757575758%;/*706/825*/
+		  margin: 3% auto 4% auto;
+		  background-color: white;
+		  overflow: hidden;
+		  padding: 1.5% 2.2% 3.5% 2.25%;
+		  
+	  }
+	  .feature-img{
+		  float: left;
+		  width: 40%;
+	  }
+	  
+	  #main-content{
+		  width: 40.393939%;/*523/825*/
+		  float: left;
+  	  	  font-family: 'Josefin Slab',serif;
+  		  color: #ea3067;
+  	  	  margin: 2%;
+  	  	  font-size: 1.1em;
+  	  	  font-weight: bold;
+  	  	  line-height: 120%;
+  	  	  letter-spacing: .05em;
+  		  background-color: white;
+  		  padding: 2%;
+		  
+		  
+		  
+	  }
+	  .main-figure{
+		  width:75%;/*170/523*/
+		  margin: 0 auto;/*50/523*/
+		  padding: 1%;
+		 
+	  }
+	  #sidebar{
+		  width: 40.393939%;/*523/825*/
+		  float: left;
+		  margin: 2%;
+  	  	  font-family: 'Josefin Slab',serif;
+  		  color: #2152A6;
+  		  font-size: 1.1em;
+  	  	  font-weight: bold;
+  	  	  line-height: 120%;
+  	  	  letter-spacing: .05em;
+  		  background-color: white;
+  		  padding: 2%;
+		  
+		  
+	  }
+	  
+	  figure{
+		  background-color:;
+	  }
+	  figure img{
+		  max-width: 100%;
+	  }
+	  footer{
+		  clear: left;
+		  padding: 2%;
+	  }
+	  footer p{
+		  margin: 0;
+	  }
+	  /*====================type styles================*/
+	  /*
+	  font-family: 'Cardo', serif;
+	  font-family: 'Josefin Sans', sans-serif;
+	  font-family: 'Josefin Slab',serif; 
+	  */
+	  
+	  body{
+	  	font-family: 'Cardo', serif;
+	  }
+	  article>p{
+		  line-height: 130%;
+	  }
+	  h1, h2, h3{
+	  	font-family: 'Josefin Sans', sans-serif;
+		color: #ea3067;
+		 letter-spacing: .05em;
+	  }
+	  h1{
+		  font-size: 2em;
+		  font-weight: bold; 
+	  }
+	  h2{
+		  font-size: 1.5em;
+		  font-weight: bold; 
+	  }
+	  .feature-text{
+		  float: left;
+		  width: 58%;
+		  margin-left: 2%;
+		  font-family: 'Josefin Slab',serif;
+		  font-size: 1.3333em;
+		  font-weight: bold;
+		  line-height: 120%;
+		  letter-spacing: .05em;
+		  color: #2152A6;
+	  }
+	  figcaption{
+	  	font-family: 'Josefin Slab',serif;
+		margin: 3%;
+		
+	  }
+	  #sidebar figcaption{
+		  margin-bottom: 2%;
+		  color: #2152A6;
+	  }
+	  #feature h2{
+		  margin-bottom: 2%;
+	  }
+	  p{
+		  margin: 2.5% 0;
+	  }
+	  .main-content-text{
+	  	font-family: 'Josefin Slab',serif;
+		color: #2152A6;
+	  	margin: 0 auto;
+	  	font-size: 1.1em;
+	  	font-weight: bold;
+	  	line-height: 120%;
+	  	letter-spacing: .05em;
+		background-color: white;
+		padding: 2%;
+		float: left;
+	}
+  .side-figure{
+	  width:80.0794701986755%;/*266/302*/
+	  margin: 1% auto;
+	  padding: 1%;
+	  background-color: white;
+		  
+		 
+  }
+		  
+  </style>
+  
+</head>
+
+<body>
+    <div id="wrapper">
+		<header>
+			<h1>Movement Meditation</h1>
+		</header>
+		
+       	<nav>
+       		<ul>
+       			<li class="nav-item"><a href="final webpage 1.html">page1</a></li>
+				<li class="nav-item"><a href="final webpage 3.html">page3</a></li>
+				<li class="nav-item"><a href="final webpage 4.html">page4</a></li>
+				
+				
+       		</ul>
+       	</nav>
+       	<div id="feature">
+			<h2>Vinyasa Flow</h2>
+			<img src="yoga by sunset.webp" class="feature-img" />
+			
+			<p class="feature-text">Vinyasa flow is a series of yoga poses done at a slighty faster pace then normal yoga. It is very challanging but can be done at all yoga experience levels. Although it would be best to have a little background before jumping in to a Vinyasa flow. But once you get the hang of it you are in a fluent flow of repetitive movements</p>
+		</div>	
+       	<div id="main-content">
+       		<article class="main-content-text">
+       			<h2>Bikram Yoga</h2>
+				<figure class="main-figure">
+					<img src="yoga pose.webp" />
+					<figcaption>
+						<p>flexible pose</p>
+					</figcaption>
+				</figure>
+				<p>
+					Bikram Yoga or as others my call it such as myself HEAT yoga. This is one of my favorite types of yoga. You enter a studio that is heated between 98 and 105 degrees. Boy is a hot but it feels so good. It allows your body to become more flexible and be able to get into some of the poses with more ease. It gets extremly sweaty and you can slip a little bit. I suggest bringing a yoga mat towel that you place over the mat to prevent from slipping.
+				</p>
+				
+				
+       		</article>
+			
+       	</div>
+       	<div id="sidebar">
+       		<article>
+				<h2>Restoritive Yoga</h2>
+				<figure class="side-figure">
+					<img src="childs pose.webp" />
+					<figcaption>
+						<p>Child's pose</p>
+					</figcaption>
+				</figure>
+				<p>
+					Restoritive yoga is like a reset gentle flow yoga. You focus alot on breath work and have a more relax and calming feel.You are able to fall into a deeper connection and form of meditation as you sit in poses a bit longer than usual. One of the most relaxing poses is chid pose. Your knees, low back and neck are relaxed as you lay forward on your knees and hips and allow you arms to either stretched out infront of you or lay to the side of your body. This pose is done in any style of yoga it is a neutral pose.
+				</p>
+				
+       		</article>
+       	</div>
+       	<footer>
+       		<p><small> Raven Anderson-Lyles @2023<small></p>
+       	</footer>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
